@@ -1,0 +1,48 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "भारतीय भाषा fact",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "start",
+                    "slots": [],
+                    "samples": [
+                        "मुझे और बताओ",
+                        "fact",
+                        "और fact",
+                        "और",
+                        "अधिक"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "फिर से",
+                        "फिर से दोहरा",
+                        "दोहराना",
+                        "दोहरा",
+                        "दोहराए",
+                        "दोहराएं"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
